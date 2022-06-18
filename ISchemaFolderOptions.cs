@@ -1,12 +1,11 @@
-﻿
-namespace SsmsSchemaFolders
+﻿namespace SsmsSchemaFolders
 {
     public interface ISchemaFolderOptions
     {
-        bool Enabled { get; }
         bool AppendDot { get; }
         bool CloneParentNode { get; }
-        bool UseObjectIcon { get; }
+        bool Enabled { get; }
         bool RenameNode { get; }
+        bool UseObjectIcon { get; }
     }
 }

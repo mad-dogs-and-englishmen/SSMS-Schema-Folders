@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SsmsSchemaFolders.VSPackage", "SsmsSchemaFolders.VSPackage.csproj", "{BF0BA7D7-D1EC-4E73-A5B4-0359D10F4740}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SsmsSchemaFolders.Ssms2017", "SsmsSchemaFolders.Ssms2017.csproj", "{8442F331-CE3E-4FA2-BA00-D0AFD5243FEC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SsmsSchemaFolders.Ssms18", "SsmsSchemaFolders.Ssms18.csproj", "{D333B8ED-584D-4BDA-91CE-7FE7473413CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SsmsSchemaFolders.Ssms19", "SsmsSchemaFolders.Ssms19.csproj", "{A97DB9A6-3A02-4BC8-9A66-151E154BDCF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,8 +53,15 @@ Global
 		{D333B8ED-584D-4BDA-91CE-7FE7473413CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D333B8ED-584D-4BDA-91CE-7FE7473413CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D333B8ED-584D-4BDA-91CE-7FE7473413CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A97DB9A6-3A02-4BC8-9A66-151E154BDCF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97DB9A6-3A02-4BC8-9A66-151E154BDCF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97DB9A6-3A02-4BC8-9A66-151E154BDCF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97DB9A6-3A02-4BC8-9A66-151E154BDCF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F68E35A-21FC-4607-9BEC-B1A95003015B}
 	EndGlobalSection
 EndGlobal

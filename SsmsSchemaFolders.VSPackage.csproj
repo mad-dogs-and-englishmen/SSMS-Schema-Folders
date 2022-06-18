@@ -7,6 +7,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <UseCodebase>true</UseCodebase>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -25,7 +26,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SsmsSchemaFolders</RootNamespace>
     <AssemblyName>SsmsSchemaFolders</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <GeneratePkgDefFile>true</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>true</IncludeAssemblyInVSIXContainer>
     <IncludeDebugSymbolsInVSIXContainer>true</IncludeDebugSymbolsInVSIXContainer>
@@ -146,6 +147,11 @@
       <Project>{d333b8ed-584d-4bda-91ce-7fe7473413ca}</Project>
       <Name>SsmsSchemaFolders.Ssms18</Name>
       <Aliases>Ssms18</Aliases>
+    </ProjectReference>
+    <ProjectReference Include="SsmsSchemaFolders.Ssms19.csproj">
+      <Project>{a97db9a6-3a02-4bc8-9a66-151e154bdcf6}</Project>
+      <Name>SsmsSchemaFolders.Ssms19</Name>
+      <Aliases>Ssms19</Aliases>
     </ProjectReference>
     <ProjectReference Include="SsmsSchemaFolders.Ssms2012.csproj">
       <Project>{9c9fa743-0d5d-4847-9544-3ad0ffbad79f}</Project>

@@ -1,4 +1,6 @@
-﻿namespace SsmsSchemaFolders.Localization
+﻿// 
+
+namespace SsmsSchemaFolders.Localization
 {
     using System.ComponentModel;
 
@@ -7,8 +9,7 @@
         private bool isLocalized;
 
         public DescriptionResourcesAttribute(string resourcesNameSuffix)
-            : base(resourcesNameSuffix)
-        { }
+            : base(resourcesNameSuffix) { }
 
         public override string Description
         {
@@ -18,16 +19,17 @@
                 {
                     isLocalized = true;
                     var localizedString = GetLocalizedString(DescriptionValue);
+
                     if (localizedString != null)
+                    {
                         DescriptionValue = localizedString;
+                    }
                 }
+
                 return DescriptionValue;
             }
         }
 
-        protected virtual string GetLocalizedString(string value)
-        {
-            return ResourcesAccess.GetString("PropertyDescription" + value);
-        }
+        protected virtual string GetLocalizedString(string value) => ResourcesAccess.GetString("PropertyDescription" + value);
     }
 }
